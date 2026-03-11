@@ -1,0 +1,29 @@
+# キーストア（絶対にコミットしない）
+release.keystore
+*.keystore
+*.jks
+
+# Android ビルド成果物
+app/android/build/
+app/android/app/build/
+app/android/.gradle/
+app/android/local.properties
+app/android/capacitor-cordova-android-plugins/
+app/android/app/src/main/assets/public/
+app/android/app/src/main/assets/capacitor.config.json
+app/android/app/src/main/assets/capacitor.plugins.json
+app/android/app/src/main/res/xml/config.xml
+
+# Node
+app/node_modules/
+
+# ログ
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# エージェント実行ログ（任意でコミット可）
+# logs/
